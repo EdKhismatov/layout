@@ -379,11 +379,11 @@ a {
 }
 
 .popular__cards {
-  margin-bottom: 128px;
   display: flex;
   column-gap: 33px;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 128px;
 }
 .popular__card {
   width: 405px;
@@ -437,7 +437,6 @@ a {
 }
 
 .popular__img {
-
   position: absolute;
   bottom: -30px;
   right: -10px;
@@ -450,3 +449,94 @@ a {
 }
 
 /* Popular END */
+
+/* Student START */
+.student {
+}
+
+.student__wrapper {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.student__content {
+  width: 100%;
+  padding: 64px;
+  background-color: #fcd8ca;
+  border-radius: 10px;
+}
+.student__link {
+  display: inline-block;
+  font-size: 14px;
+  color: #1f2937;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.student__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  color: #1f2937;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 28px;
+}
+
+.student__title {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 39px;
+}
+.student__btn {
+  background-color: #1f2937;
+  padding: 13px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.student__bg {
+  min-height: 539px;
+  width: 100%;
+  background: url('/img/people.png') center / cover no-repeat;
+}
+
+.learn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.learn__card {
+}
+
+.learn__images {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #158e5e;
+  padding: 10px;
+  margin-bottom: 32px;
+}
+.learn__images img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.learn__card h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #1f2937;
+  margin-bottom: 24px;
+}
+
+.learn__text {
+  color: #4b5563;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 378px;
+}
+
+/* Student END */
