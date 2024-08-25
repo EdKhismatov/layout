@@ -264,13 +264,13 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  margin-bottom: 128px;
+  /* margin-bottom: 128px; */
+  padding-bottom: 128px;
 }
 
 .premium-2 {
   flex-direction: row-reverse;
 }
-
 
 .premium__bg {
   background: url('/img/Frame.png') center / cover no-repeat;
@@ -341,3 +341,112 @@ a {
 }
 
 /* Premium END */
+
+/* Popular START */
+
+.popular {
+}
+
+.popular__content {
+  text-align: center;
+}
+
+.popular__content h5 {
+  color: #1f2937;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-bottom: 29px;
+}
+
+.popular__link {
+  display: inline-block;
+  color: #1f2937;
+  background-color: #fcd8ca;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.popular__description {
+  color: #4b5563;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 730px;
+  margin: 0 auto;
+  margin-bottom: 63px;
+}
+
+.popular__cards {
+  margin-bottom: 128px;
+  display: flex;
+  column-gap: 33px;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular__card {
+  width: 405px;
+  min-height: 500px;
+  background-color: #00353b;
+  border-radius: 10px;
+  padding: 32px 24px;
+}
+.popular__wrap {
+}
+
+.popular__links {
+  display: inline-block;
+  color: #1f2937;
+  background-color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 5px 8px;
+  margin-bottom: 20px;
+}
+.popular__webflow {
+  display: block;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.popular__money {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.popular__btn {
+  color: #ffffff;
+  padding: 9px 21px;
+  background-color: #22a45a;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 142px;
+}
+
+.popular__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.popular__img {
+
+  position: absolute;
+  bottom: -30px;
+  right: -10px;
+}
+
+.popular__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Popular END */
