@@ -540,3 +540,89 @@ a {
 }
 
 /* Student END */
+
+/* Teachers START */
+
+.teachers {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.teachers__link {
+  display: inline-block;
+  background-color: #fcd8ca;
+  color: #1f2937;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-bottom: 11px;
+  line-height: 24px;
+}
+.teachers_title {
+  max-width: 691px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #1f2937;
+  margin: 0 auto;
+  margin-bottom: 28px;
+  line-height: 57px;
+}
+
+.techers__descr {
+  max-width: 730px;
+  color: #4b5563;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.teachers__content {
+  margin-bottom: 80px;
+}
+
+.teacherc__bg {
+  width: 504px;
+  height: 600px;
+  background: url('/img/user.png') center / cover no-repeat;
+}
+
+.teachers_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.over {
+  width: 240px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.teachers__image {
+  margin-bottom: 24px;
+}
+
+.teachers__hours {
+  display: inline-block;
+  font-size: 24px;
+  color: #1f2937;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 16px;
+  line-height: 33px;
+}
+
+.teachers__hoursr-title {
+  color: #4b5563;
+  font-size: 15px;
+  text-align: center;
+}
+
+.teachers__btns {
+  display: inline-block;
+  background-color: #1f2937;
+  padding: 13px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+/* Teachers END */
