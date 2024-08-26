@@ -19,3 +19,5 @@
 ![9](https://github.com/EdKhismatov/layout/blob/main/img/foto/9.png)
 
 ![10](https://github.com/EdKhismatov/layout/blob/main/img/foto/10.png)
+
+![11](https://github.com/EdKhismatov/layout/blob/main/img/foto/11.png)
