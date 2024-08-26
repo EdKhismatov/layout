@@ -862,3 +862,51 @@ a {
 }
 
 /* Posts END */
+
+/* Today START */
+
+.today {
+  padding: 87px 0;
+  text-align: center;
+}
+.today__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+.today__descr {
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  max-width: 730px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.today__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.today__link1 {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #22a45a;
+  padding: 13px 25px;
+  border-radius: 8px;
+}
+.today__link2 {
+  color: #1f2937;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #ffffff;
+  padding: 13px 25px;
+  border-radius: 8px;
+}
+/* Today END */
